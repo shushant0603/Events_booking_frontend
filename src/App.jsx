@@ -29,7 +29,7 @@ const App = () => {
           }
         />
         <Route
-          path="/lund"
+          path="/ticket"
           element={
       
               <Ticket />

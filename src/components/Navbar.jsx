@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex items-center gap-6">
         <button
           className="text-gray-700 font-medium hover:text-blue-600 transition"
-          onClick={() => navigate("/lund")}
+          onClick={() => navigate("/ticket")}
         >
           Check Ticket
         </button>
