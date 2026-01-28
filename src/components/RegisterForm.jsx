@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ticketApi from "../api/ticket.js";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const RegisterForm = ({ event, onClose, onSubmit }) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
@@ -50,7 +50,7 @@ const RegisterForm = ({ event, onClose, onSubmit }) => {
       <div
         className="bg-white p-6 rounded-xl w-96 shadow-2xl border-2 border-gray-100"
         onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside modal
-        onClick={(e) => e.stopPropagation()} // 👈 inside safe
+      // 👈 inside safe
       >
         <h2 className="text-xl font-semibold mb-4">
           Register for Event
