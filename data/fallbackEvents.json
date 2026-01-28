@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "dummy-1",
+    "title": "Tech Meetup 2026",
+    "description": "A casual tech meetup to discuss web development, AI, and startups.",
+    "date": "2026-02-10T00:00:00.000Z",
+    "venue": "Bangalore",
+    "ticketLimit": 120,
+    "approvalMode": "auto",
+    "imageUrl": "https://images.unsplash.com/photo-1522199710521-72d69614c702"
+  },
+  {
+    "_id": "dummy-2",
+    "title": "Startup Pitch Day",
+    "description": "Pitch your startup idea in front of mentors and investors.",
+    "date": "2026-03-05T00:00:00.000Z",
+    "venue": "Delhi",
+    "ticketLimit": 80,
+    "approvalMode": "manual",
+    "imageUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df"
+  },
+  {
+    "_id": "dummy-3",
+    "title": "Frontend Bootcamp",
+    "description": "Learn React, Tailwind, and modern frontend practices in one day.",
+    "date": "2026-04-01T00:00:00.000Z",
+    "venue": "Online",
+    "ticketLimit": 300,
+    "approvalMode": "auto",
+    "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+  }
+]
